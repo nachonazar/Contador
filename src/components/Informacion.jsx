@@ -1,4 +1,4 @@
-const Informacion = (props) => {
+const Informacion = ({anio, comisionProps}) => {
   return (
     <section>
       <h2>Primer proyecto con react</h2>
@@ -14,7 +14,7 @@ const Informacion = (props) => {
         mantenimiento de aplicaciones a gran escala.
       </p>
       <article className="bg-primary-subtle p-3 rounded">
-        <p>Practica de contador de la <strong>comision {props.comisionProps}</strong></p>
+        <p>Practica de contador de la <strong>comision {comisionProps}</strong> - {anio} </p>
       </article>
     </section>
   );
