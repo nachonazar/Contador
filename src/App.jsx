@@ -6,11 +6,11 @@ function App() {
 
   return (
     //aqui puedo agregar algo de logica
-    <>
+    <main className="container my-5">
     {/* aqui va todo el maquetado html */}
-  <h1>Hola mundo</h1>
+  <h1>Hola mundo 2</h1>
   <Informacion></Informacion>
-  </>
+  </main>
   )
 }
 
