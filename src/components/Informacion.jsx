@@ -1,4 +1,4 @@
-const Informacion = () => {
+const Informacion = (props) => {
   return (
     <section>
       <h2>Primer proyecto con react</h2>
@@ -13,6 +13,9 @@ const Informacion = () => {
         reactivas de forma modular, lo que facilita el desarrollo y el
         mantenimiento de aplicaciones a gran escala.
       </p>
+      <article className="bg-primary-subtle p-3 rounded">
+        <p>Practica de contador de la <strong>comision {props.comisionProps}</strong></p>
+      </article>
     </section>
   );
 };
