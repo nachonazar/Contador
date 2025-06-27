@@ -13,7 +13,7 @@ const Informacion = ({anio, comisionProps}) => {
         reactivas de forma modular, lo que facilita el desarrollo y el
         mantenimiento de aplicaciones a gran escala.
       </p>
-      <article className="bg-primary-subtle p-3 rounded">
+      <article className="bg-success-subtle p-3 rounded">
         <p>Practica de contador de la <strong>comision {comisionProps}</strong> - {anio} </p>
       </article>
     </section>
